@@ -1,25 +1,18 @@
----
-# 详细文档见https://modelscope.cn/docs/%E5%88%9B%E7%A9%BA%E9%97%B4%E5%8D%A1%E7%89%87
-domain: #领域：cv/nlp/audio/multi-modal/AutoML
-# - cv
-tags: #自定义标签
--
-datasets: #关联数据集
-  evaluation:
-  #- iic/ICDAR13_HCTR_Dataset
-  test:
-  #- iic/MTWI
-  train:
-  #- iic/SIBR
-models: #关联模型
-#- iic/ofa_ocr-recognition_general_base_zh
+## 项目概述
 
-## 启动文件(若SDK为Gradio/Streamlit，默认为app.py, 若为Static HTML, 默认为index.html)
-# deployspec:
-#   entry_file: app.py
-license: Apache License 2.0
----
-#### Clone with HTTP
-```bash
- git clone https://www.modelscope.cn/studios/schordingerscat/DaGongRen_ZuiTi_Bot.git
-```
+### 关键特性
+- 懂得打工人平时如何发疯
+- 懂得趣味微信状态、朋友圈
+
+### 项目愿景
+帮助用户生产超出期望的文案
+
+### 项目简介
+使用AI+海量趣味文案作为知识库，使用浪潮信息的源2.0大模型，使用 RAG技术，实现了帮助打工人输出”疯感“文案的功能。
+
+## 产品功能
+<img width="1373" alt="image" src="https://github.com/user-attachments/assets/fc3f2014-60c9-41c7-b0a4-7491c5edc98e">
+
+## 技术路线
+<img width="887" alt="image" src="https://github.com/user-attachments/assets/d6b9fe99-c272-403b-9596-7a2b9b2d1ffe">
+
